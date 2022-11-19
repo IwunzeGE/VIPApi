@@ -6,6 +6,7 @@ import PrivacyListTwo from "./body/PrivacyListTwo";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 
+//created a list where data was fetched from
 const list = PrivacyList.map((plist, idx) => (
   <PrivacyCard key={idx} plist={plist} />
 ));
