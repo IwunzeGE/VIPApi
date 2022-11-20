@@ -5,6 +5,7 @@ import { Store } from "../store/contexts/AppContext";
 import { sayHello_a } from "../store/actions/appActions";
 import Logout from "./Logout";
 import { Button } from "react-bootstrap";
+import Footer from "./Footer";
 
 const Home = () => {
   const { greet, dispatch, changeTheme, theme } = Store();
@@ -59,6 +60,7 @@ const Home = () => {
           Something Else
         </Link>
       </div>
+      <Footer />
     </div>
   );
 };
